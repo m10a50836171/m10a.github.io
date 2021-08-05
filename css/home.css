@@ -5,7 +5,7 @@
   animation-timing-function: ease;
 }
 
-@keyframe animationText0{
+@keyframes animationText0{
   0% {
     opacity: 0;
   }
