@@ -1,0 +1,15 @@
+.animationText {
+  animation-name: animationText0;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframe animationText0{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
