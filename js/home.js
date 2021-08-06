@@ -15,7 +15,7 @@ var bar = new ProgressBar.Line(
       margin: '-30px 0 0 0',
       transform: 'translate(-50%, -50%)',
       'font-size': '1rem',
-      color: '#fff",
+      color: '#fff',
   },
   autoStyleContainer: false
 },
