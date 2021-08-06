@@ -2,7 +2,7 @@
   animation-name: animationText0;
   animation-duration: 10s;
   animation-timing-function: ease;
-  animation-delay: 0.5s;
+  animation-delay: 5s;
 }
 
 @keyframes animationText0{
