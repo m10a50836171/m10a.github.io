@@ -1,13 +1,13 @@
-var bar = new ProgressBar.Line(
-  splash_text,
+var bar = new ProgressBar.Line(splash_text, {
   easing: 'easeInOut',
   duration: 1000,
   strokeWidth: 0.2,
   color: '#555',
   trailWidth: 0.2,
   trailColor: '#bbb',
+                               
   text: {
-    style:
+    style: {
       position: 'absolute',
       left: '50%',
       top: '50%',
@@ -16,9 +16,9 @@ var bar = new ProgressBar.Line(
       transform: 'translate(-50%, -50%)',
       'font-size': '1rem',
       color: '#fff',
+    },
+    autoStyleContainer: false
   },
-  autoStyleContainer: false
-},
   
 step: function(state, bar){
   bar.setText(Math.round(bar.value() * 100) + ' %');
