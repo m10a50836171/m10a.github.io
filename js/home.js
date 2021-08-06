@@ -1,7 +1,7 @@
 var bar = new ProgressBar.Line(
   splash_text,
-  easing = 'easeInOut'
-  duration = 1000,
+  easing: 'easeInOut'
+  duration: 1000,
   strokeWidth: 0.2,
   color: '#555',
   trailWidth: 0.2,
@@ -29,5 +29,4 @@ step: function(state, bar){
 bar.animate(1.0, function() {
   $("#splash").delay(500).fadeOut(800);
 });
-
                        
