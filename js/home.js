@@ -1,6 +1,6 @@
 var bar = new ProgressBar.Line(
   splash_text,
-  easing: 'easeInOut'
+  easing: 'easeInOut',
   duration: 1000,
   strokeWidth: 0.2,
   color: '#555',
@@ -13,7 +13,7 @@ var bar = new ProgressBar.Line(
       top: '50%',
       padding: '0',
       margin: '-30px 0 0 0',
-      transform: 'translate(-50%,-50%)',
+      transform: 'translate(-50%, -50%)',
       'font-size': '1rem',
       color: '#fff",
   },
