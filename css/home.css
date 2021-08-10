@@ -1,9 +1,14 @@
+body {
+  background: #cecece;
+}
+
+
 #splash {
   position: fixed;
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #cecece;
   text-align: center;
 }
 
