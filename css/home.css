@@ -44,8 +44,6 @@
 
 body {
   background-color: #cecece;
-  top: 0;
-  left: 0;
 }
 
 body.swipeOn .swipeBackground{
@@ -86,8 +84,6 @@ body.swipeOn .swipeBackground{
 
 #container {
   opacity: 0;
-  top: 0;
-  left: 0;
 }
 
 body.swipeOn #container{
@@ -120,16 +116,22 @@ body.swipeOn #container{
   background: #000000;
   color: #cecece;
   text-align: center;
-  top:12;
+  top: 12px;
+  left: 12px
 
   
 }
 
 #header.fixed{
+ 
+  height: 48px;
+  width: 100%; 
+
   position: fixed;
+  
   z-index: 999;
-  top:12;
-  left:12;
+  top: 12px;
+  left: 12px;
 }
 
 nav ul{
