@@ -44,6 +44,8 @@
 
 body {
   background-color: #cecece;
+  top: 0;
+  left: 0;
 }
 
 body.swipeOn .swipeBackground{
@@ -92,8 +94,6 @@ body.swipeOn #container{
   animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
-  top: 0;
-  left: 0;
 }
 
 @keyframes PageAnimeAppear {
@@ -116,8 +116,8 @@ body.swipeOn #container{
   background: #000000;
   color: #cecece;
   text-align: center;
-  top: 12px;
-  left: 12px
+  top: 0;
+  left: 0;
 
   
 }
@@ -130,8 +130,8 @@ body.swipeOn #container{
   position: fixed;
   
   z-index: 999;
-  top: 12px;
-  left: 12px;
+  top: 0;
+  left: 0;
 }
 
 nav ul{
