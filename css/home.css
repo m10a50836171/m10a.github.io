@@ -120,17 +120,15 @@ body.swipeOn #container{
   background: #000000;
   color: #cecece;
   text-align: center;
-  
-  top: 12;
-  left: 12;
+
   
 }
 
 #header.fixed{
   position: fixed;
   z-index: 999;
-  top:0;
-  left:0;
+  top:12;
+  left:12;
 }
 
 nav ul{
