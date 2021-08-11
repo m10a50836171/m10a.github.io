@@ -96,6 +96,8 @@ body.swipeOn #container{
   animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
+  top: 0;
+  left: 0;
 }
 
 @keyframes PageAnimeAppear {
