@@ -1,8 +1,3 @@
-body {
-  background: #cecece;
-}
-
-
 #splash {
   position: fixed;
   z-index: 9999999;
@@ -59,7 +54,7 @@ body.swipeOn .swipeBackground{
   
   background-color: #cecece;
   animation-name: PageAnime;
-  animation-duration: 5s;
+  animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
