@@ -120,10 +120,7 @@ body.swipeOn #container{
   background: #000000;
   color: #cecece;
   text-align: center;
-  padding: 0px;
   
-  top:0;
-  left:0;
 }
 
 #header.fixed{
