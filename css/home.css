@@ -68,9 +68,16 @@ body.swipeOn .swipeBackground{
     transform-origin: bottom;
     transform: scaleY(0);
   }
+  50% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+  51% {
+    transform-origin: top;
+  }
   100% {
     transform-origin: top;
-    transform: scaleY(1);
+    transform: scaleY(0);
   }
 }
 
