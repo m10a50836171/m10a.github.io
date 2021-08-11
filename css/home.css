@@ -58,7 +58,7 @@ body.swipeOn .swipeBackground{
   
   background-color: #ffffff;
   animation-name: PageAnime;
-  animation-duration: 1.2s;
+  animation-duration: 3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -87,7 +87,7 @@ body.swipeOn .swipeBackground{
 
 body.swipeOn #container{
   animation-name: PageAnimeAppear;
-  animation-duration: 1s;
+  animation-duration: 3s;
   animation-delay: 0.8s;
   animation-fill-mode: forwards;
   opacity: 0;
