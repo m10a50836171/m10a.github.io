@@ -111,8 +111,8 @@ body.swipeOn #container{
   display: flex;
   jusify-content: space-between;
   align-items: center;
-  background: #333;
-  color: #fff;
+  background: #ffffff;
+  color: #cecece;
   text-align: center;
   padding: 0px;
 }
@@ -132,12 +132,12 @@ nav ul{
 
 nav ul li a{
   text-decoration: none;
-  color: #666;
-  padding: 10px;
+  color: #cecece;
+  padding: 0px;
 }
 
 section{
-  padding: 300px 0;
+  padding: 240px 0;
 }
 
 
