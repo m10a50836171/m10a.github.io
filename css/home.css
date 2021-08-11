@@ -121,6 +121,9 @@ body.swipeOn #container{
   color: #cecece;
   text-align: center;
   
+  top: 12;
+  left: 12;
+  
 }
 
 #header.fixed{
