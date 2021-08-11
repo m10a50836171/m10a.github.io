@@ -20,8 +20,8 @@
 
 .onBoarding {
   animation-name: onBoardingAnim;
-  animation-delay: 0.5s;
-  animation-duration: 1s;
+  animation-delay: 0.25s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -59,7 +59,7 @@ body.swipeOn .swipeBackground{
   
   background-color: #ffffff;
   animation-name: PageAnime;
-  animation-duration: 0.5s;
+  animation-duration: 0.75s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -89,7 +89,7 @@ body.swipeOn .swipeBackground{
 body.swipeOn #container{
   animation-name: PageAnimeAppear;
   animation-duration: 3s;
-  animation-delay: 5s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
