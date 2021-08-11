@@ -52,7 +52,7 @@ body.swipeOn .swipeBackground{
   left: 0;
   transform: scaleY(0);
   
-  background-color: #cecece;
+  background-color: #ff0000;
   animation-name: PageAnime;
   animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
