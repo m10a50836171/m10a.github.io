@@ -41,6 +41,10 @@
   display: none;
 }
 
+body {
+  background-color: #cecece;
+}
+
 body.swipeOn .swipeBackground{
   display: block;
   content: "";
@@ -52,7 +56,7 @@ body.swipeOn .swipeBackground{
   left: 0;
   transform: scaleY(0);
   
-  background-color: #333;
+  background-color: #ffffff;
   animation-name: PageAnime;
   animation-duration: 1.2s;
   animation-timing-function: ease-in-out;
