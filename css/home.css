@@ -89,7 +89,7 @@ body.swipeOn .swipeBackground{
 body.swipeOn #container{
   animation-name: PageAnimeAppear;
   animation-duration: 3s;
-  animation-delay: 0.5s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
