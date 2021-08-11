@@ -111,10 +111,10 @@ body.swipeOn #container{
   display: flex;
   jusify-content: space-between;
   align-items: center;
-  background: #ffffff;
+  background: #000000;
   color: #cecece;
   text-align: center;
-  padding: 0px;
+  padding: 12px;
 }
 
 #header.fixed{
