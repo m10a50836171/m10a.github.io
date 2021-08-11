@@ -68,16 +68,9 @@ body.swipeOn .swipeBackground{
     transform-origin: bottom;
     transform: scaleY(0);
   }
-  50% {
-    transform-origin: bottom;
-    transform: scaleY(1);
-  }
-  50.001% {
-    transform-origin: top;
-  }
   100% {
     transform-origin: top;
-    transform: scaleY(0);
+    transform: scaleY(1);
   }
 }
 
@@ -88,7 +81,7 @@ body.swipeOn .swipeBackground{
 body.swipeOn #container{
   animation-name: PageAnimeAppear;
   animation-duration: 3s;
-  animation-delay: 0.8s;
+  animation-delay: 3s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
