@@ -117,8 +117,7 @@ body.swipeOn #container{
   background: #000000;
   color: #cecece;
   text-align: center;
-  top: 0;
-  left: 0;
+  margin: 0;
 
   
 }
