@@ -44,7 +44,8 @@
 
 body {
   background-color: #cecece;
-  padding: 0px;
+  top: 0;
+  left: 0;
 }
 
 body.swipeOn .swipeBackground{
@@ -85,7 +86,8 @@ body.swipeOn .swipeBackground{
 
 #container {
   opacity: 0;
-  padding: 0;
+  top: 0;
+  left: 0;
 }
 
 body.swipeOn #container{
